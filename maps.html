@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/maps.css">
+</head>
+<body>
+    
+    <script src="jss/dashbord.js"></script>
+    <div class="container">
+
+        <div class="topnav">
+            <div class="header">
+            
+                <img src="image/logo.png" width="100px" height="100px" alt="Logo">
+                <span>
+                    
+                     <h2>HEALTH FACILITY REGISTRY</h2>
+                </span>
+            </div>
+            
+        </div>
+
+        <div class="menubar">
+            <a href="dashboard.html">Home</a>
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Map</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+
+            <a href="search_facility.html">Search Facility</a>
+
+            <button onclick="myFunction()" class="dropbtn">Statictics</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+
+
+            <div class="dropdown">
+                <a href="admin_controls.html">
+                <button onclick="myFunction()" class="dropbtn">Admin Control</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="center">
+
+            <div class="sub_bar">
+                <div class="sub_bar_text">
+                    <strong>facilities Maps</strong>
+                </div>
+            </div>
+
+            <div class="submenu">
+                
+                <div class="province">
+                    <strong>Province</strong>
+                    <div class="form">
+                        <input type="text" placeholder="Province">
+                    </div>
+                </div>
+                <div class="division">
+                    <strong>Division</strong>
+                    <div class="form">
+                        <input type="text" placeholder="Division">
+                    </div>
+                </div>
+                <div class="district">
+                    <strong>District </strong>
+                    <div class="form">
+                        <input type="text" placeholder="District">
+                    </div>
+                </div>
+                <div class="tehsil">
+                    <strong>Tehsil/taluka</strong>
+                    <div class="form">
+                        <input type="text" placeholder="Tehsil/taluka">
+                    </div>
+                </div>
+                <div class="uc">
+                    <strong>UC/TC/MC</strong>
+                    <div class="form">
+                        <input type="text" placeholder="UC/TC/MC">
+                    </div>
+                </div>
+                <div class="Hospital">
+                    <strong>Hospital Type</strong>
+                    <div class="form">
+                        <input type="text" placeholder="Hospital Type">
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <button>Search</button>
+
+                </div>
+
+                
+
+                <div class="text3">
+                    <p>Total Facilities: 124</p>
+                </div>
+                
+            </div>
+
+            <div class="map">
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                <script>
+                function myMap() {
+                var mapProp= {
+                  center:new google.maps.LatLng(51.508742,-0.120850),
+                  zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+                </script>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+                
+            </div>
+
+           
+
+            
+
+           
+       
+
+        <div class="footer">
+
+            <div class="text4">
+                <p>Pak One Health Allinace
+                    <br>
+                    Office# 401,408 4th Park Link Road CIIT, Cubator 1ne Islamabad Pakistan</p>
+            </div>
+            <div class="text5">
+                <p>Phone 092-51-8447600</p>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>

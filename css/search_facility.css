@@ -1,0 +1,282 @@
+.topnav{
+    background-image: linear-gradient(to right, #326b9c, white);
+    width: 100%;
+    height: 100px;
+
+}
+
+.navbar{
+    overflow: hidden;
+    background: mediumaquamarine;
+    border-radius: 4px;
+}
+
+.menubar{
+    background-color: rgb(94, 170, 233);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.menubar a{
+    margin-left: 10px;
+    color: black;
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+
+
+.dropbtn {
+
+    cursor: pointer;
+    margin-left: 15px;
+    color: black;
+    margin-top:  16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(94, 170, 233); 
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown-content {
+  
+  position: absolute;
+  overflow: auto;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+  display: none;
+    
+    background-color: #f1f1f1;
+    
+}
+
+.dropdown-content a {
+   
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .center{
+    border: 1px solid #2980B9;
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.sub_bar{
+    background-color: #2980B9;
+    margin-top: -10px;
+}
+.sub_bar_text{
+    text-align: center;
+
+    padding: 10px;
+    color: oldlace;
+    margin-top: 10px;
+}
+
+.sub_bar1{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background-color: #2980B9;
+
+}
+
+.sub_bar1_text{
+    text-align: center;
+    padding: 10px;
+    color: oldlace;
+}
+.Textbox{
+
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 70%;
+    height: 250px;
+    align-items: center;
+    background-color: rgb(122, 191, 236);
+
+    border-radius: 4px;
+
+}
+.map{
+    border: 1px solid #2980B9;
+    width: 98%;
+    margin-top: 50px;
+    height: 190px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Text1{
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.footer{
+    position: relative;
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 25px;
+    height: 70px;
+    margin-top: 20px;
+}
+.text4{
+    text-align: center;
+    margin-left: -600px;
+    margin-top: 10px;
+    color: cornsilk;
+    
+
+}
+.text5{
+    text-align: center;
+    margin-right: -600px;
+    margin-top: -40px;
+    color: cornsilk;
+    margin-left: 20px;
+}
+
+
+.header{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 400%;
+    font-size: 18px;
+    font-style: inherit;
+}
+
+.show{
+    display: block;
+}
+
+.submenu{
+    margin: 10px;
+
+}
+.province{
+    margin: 10px;
+    width: 400px;
+}
+
+.division{
+    margin-left: 250px;
+    margin-top: -60px;
+}
+
+.district{
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.tehsil{
+    margin-left: 750px;
+    margin-top: -50px;
+
+}
+
+
+
+.btn{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+.btn button{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    width: 60px;
+    height: 20px;
+}
+.form input{
+    border-radius: 4px;
+    height: 30px;
+}
+
+.center1{
+    border: 1px solid #042a44;
+
+    width: 80%;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    height: fit-content;
+}
+
+.center1_header{
+    background-color: #2b95e0;
+    
+    width: 100%;
+    height: 40px;
+    margin-top: -20px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.center1_header .sub_bar .sub_bar_text button{
+    background-color:#3ca4e9;
+    margin-left: 750px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+
+}
+
+
+ 
